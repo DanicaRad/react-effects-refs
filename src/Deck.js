@@ -30,8 +30,6 @@ const Deck = () => {
     }
 
     const card = cardRes.data.cards[0];
-    console.log("cardRes", cardRes.data);
-    console.log("card", card);
     setDrawn(d => [...d,
       {
         id: card.code,
