@@ -1,0 +1,26 @@
+.Deck {
+  text-align: center;
+  margin-top: 40px;
+}
+
+button {
+  padding: 15px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  margin: 0 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #444;
+}
+
+button:active {
+  background-color: #605f5f;
+}
+
+.Cards {
+  margin-top: 80px;
+}
